@@ -1,0 +1,6 @@
+/config/targets/*
+!/config/targets/.env.example
+/node_modules/
+/tmp/
+
+cypress.env.json

@@ -1,0 +1,1 @@
+dotenvx run -f config/targets/.env.staging -- npx cypress run

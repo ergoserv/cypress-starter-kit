@@ -1,0 +1,1 @@
+dotenvx run -f config/targets/.env.production -- npx cypress run

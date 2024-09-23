@@ -1,0 +1,11 @@
+#! /bin/bash
+
+echo 'Installing NPM packages...'
+npm install
+
+echo 'Copying example.env.json to cypress.env.json...'
+cp -iv example.env.json cypress.env.json
+
+echo 'Copying config/targets/.env.example...'
+cp -iv config/targets/.env.example config/targets/.env.production
+cp -iv config/targets/.env.example config/targets/.env.staging
